@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+ }
+
+ .logo nav img{
+    width: 150px;
+    cursor: pointer;
+ }
+
+ nav button {
+    border: none;
+    outline: none;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+
+.fa-globe {
+    color: #fff;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.lang-btn img {
+    width: 10px;
+    margin-left: 10px;
+} 
+
+.header-content{
+    align-items: center;
+    margin-top: 100px;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.header-content h1{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-content h3{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header-content P{
+    margin-top: 50px;
+}
+/*input*/
+
+.email {
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    overflow: hidden;
+    
+}
+
+.email input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+}
+
+.email  button {
+    background-color: #db0001;
+    border:none;
+    outline: none;
+    color:#fff;
+    font-size: 16px;
+    padding: 20px;
+    height:80%;
+}
