@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 body {
@@ -49,7 +54,7 @@ body {
     display: inline-flex;
     align-items: center;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid;
     padding: 7px 10px;
 }
 
@@ -93,7 +98,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 10px;
-    /* overflow: hidden; */
+    overflow: hidden;
     
 }
 
@@ -115,49 +120,56 @@ body {
 }
 
 hr{
-    height: 10px;
+    height:  10px;
     background: #000;
     background-color: #fff;
     opacity: 0.1;
+    max-width: 100%;
 }
 
- .feating .row {
-    display: flex;
-    justify-content: space-between;
-    overflow: auto;
-    text-align: center;
-    margin-bottom: 100px;
-
-}
+ /* feature */
+ 
 
  .row-feat  {
     width: 50%;
-    padding-right: 0px;
-    margin-top: 150px;
-    left: 700px;
-    
+    flex-basis: 50%;
+    text-align: center;
+    padding-right: 200px;
+    margin-top: 300px;
+}
+
+.content{
+    display: flex;
 }
 
 .row-feat h2{
     font-weight: 600;
-    font-size: 3rem  ;
+    font-size: 3.4rem;
+
 }
 
- .row-feat h2 {
+ .row-feat p {
+    padding: auto;
+    margin: auto;
     font-size: 2rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
 }
 
-.row1 {
-    width:  50%;
+.row-feat {
+    width:  45%;
 }
 
-.row1 img {
-    width: 100%;
-    height: 100%;
+.row-feat img {
+    max-width: 100%;
+    margin-left: 500px;
     object-fit: contain;
+    /* margin-bottom: 400px; */
 
+}
+
+/* content1 */
+
+.content1{
+    display: flex;
 }
 
 .row-feat2  .row2{
@@ -166,44 +178,95 @@ hr{
 }
 
   .row2 img{
-    width: 45%;
+    width: 85%;
+    /* object-fit: contain; */
+    margin-right: 600px;
  }
 
 .row-feat2{
-    flex-basis: 50%;
-    margin-left: 500px;
-    font-size: 1rem;
+    flex-basis: 55%;
     text-align: center;
-    bottom: 10%;
+    margin-top: 100px;
  }
 
+ .row-feat2 h2{
+    font-size: 3rem;
+ }
+
+ .row-feat2 p{
+    font-size: 1.2rem;
+ }
+
+/* CONTENT2 */
+
+ .content2{
+    display: flex;
+ }
 
  .row3 .row-feat3{
-    display: block;
+    display: flex;
     width:50% ;
  }
 
  .row3 img{
-    width: 40%;
-    margin-left: 550px;
+    width: 100%;
+    margin-left: 90px;
 }
 
 .row-feat3{
-    bottom: 100%;
     margin-left: 100px;
+    margin-bottom: 200px;
 }
 
- .row4 .row-feat4{
+.row-feat3 h2{
+    font-size: 3.1rem;
+    padding: auto;
+    text-align: center;
+}
+
+.row-feat3 p{
+    font-size: 1.6rem;
+    margin-top: 100px;
+}
+
+/*  content3*/
+
+.content3{
+    display: flex;
+}
+
+.row4 .row-feat4{
+    text-align: center;
+}
+
+ .row4 {
+    width: 50%;
+}
+
+.row4 img{
     width: 90%;
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
 
 .row-feat4{
-    margin-left: 500px;
+    margin-left: 100px;
     text-align: center;
-    font-size: 1rem;
-    top: 50%;
+    margin-top: 100px;
+    font-size: 10px;
 }
 
+.row-feat4 h2{
+    font-size: 3rem;
+    /* padding: 10px; */
+    text-align: center;
+}
+ 
+.row-feat4 p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+ 
 /* foire questions */
 
 .faq {
