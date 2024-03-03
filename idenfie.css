@@ -1,0 +1,57 @@
+.formulaire{
+    margin-top: 100px;
+    margin-left: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* padding: 45px 68px; */
+    /* height: 500px; */
+    /* width: 60%; */
+}
+
+
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire ,
+input,
+ button{
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 16px;
+    color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    outline: 0;
+}
+
+.formulaire input {
+    margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.838);
+}
+
+.formulaire button{
+    background-color: red;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.formulaire h2{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.formulaire a{
+    text-align: center;
+}
+
+.souvenir{
+    display: flex;
+    padding: 2px;
+}
+
+.souvenir label{
+    color: #fff;
+}

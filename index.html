@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Neflix</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="idenfie.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
 <body>
@@ -13,11 +14,15 @@
         <nav>
             <img src="Images/logo.png" alt="logo" class="logo">
             <div>
-                <button class="lang-btn">
-                    <i class="fa-solid fa-globe"></i> Français
-                    <img src="Images/down-icon.png" alt="">
-                </button>
-                <button>S'identifier</button>
+
+               <button class="lang-btn">
+                <select class="fa-solid"    id="lang-btn">
+                    <option value="lang">Français</option>
+                    <option value="lang">Anglais</option>
+                    <!-- <img src="Images/down-icon.png" alt=""> -->
+                    <select>
+               </button>
+                <button> <a href="idenfie.html">S'identifier</a></button>
             </div>
         </nav>
 
@@ -37,8 +42,6 @@
     </div>
 
     <div class="overlage"></div>
-
-    <hr>
     
 
     <!-- menu -->
@@ -46,19 +49,25 @@
         <section class="feating">
         
             <div class="content">
+
                 <div class="row-feat">
               
                     <h2>Regardez Netflix sur votre TV</h2>
                     <p>
                         Regardez Netflix sur votre Smart TV, PlayStation, Xbox, <br>
                         Chromecast, Apple TV, lecteur Blu-ray et bien plus
-                
                     </p>
-                    <img src="Images/feature-1.png" alt="">
                 </div>
-              
-            </div>
 
+                <div class="row">
+                    <img src="Images/feature-1.png" alt="">
+
+
+                    <!-- <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                          type="video/mp4"  class="animation" autoplay playsinline muted loop>
+                        </video> -->
+                </div>
+            </div>
     <hr>
 
     <!-- feature 2  -->
@@ -67,6 +76,15 @@
         <div class="row2">
             <img src="Images/feature-3.png" alt="">
         </div>
+
+
+        <!-- <video class="showcase-animation" autoplay playsinline muted loop>
+            <source
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+              type="video/mp4"
+            />
+          </video> -->
+
 
         <div class="row-feat2">
             <h2>Où que vous soyez</h2>
@@ -243,10 +261,15 @@
             </div>
         </div>
 
+       
+
         <button class="lang-btn">
-            <i class="fa-solid fa-globe"></i> Français
-            <img src="Images/down-icon.png" alt="">
-        </button>
+            <select class="fa-solid"    id="lang-btn">
+                <option value="lang">Français</option>
+                <option value="lang">Anglais</option>
+                <!-- <img src="Images/down-icon.png" alt=""> -->
+                <select>
+           </button>
 
         <p class="copyright-text">Netflix France</p>
     </div>

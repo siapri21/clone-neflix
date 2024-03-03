@@ -26,7 +26,7 @@ body {
     padding: 10px 8%;
     position: relative;
 }
- nav{
+ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,16 +38,22 @@ body {
     cursor: pointer;
  }
 
- nav button {
+ nav button  {
     border: none;
     outline: none;
-    background-color: #db0001;
+    background-color: red;
     color: #fff;
     padding: 7px 20px;
     font-size: 12px;
     border-radius: 4px;
     margin-left: 10px;
     cursor: pointer;
+}
+
+a{
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 .lang-btn {
@@ -59,7 +65,7 @@ body {
 }
 
 .fa-globe {
-    color: #fff;
+    color: #39313128;
     width: 10px;
     margin-right: 10px;
 }
@@ -125,46 +131,47 @@ hr{
     background-color: #fff;
     opacity: 0.1;
     max-width: 100%;
+    margin-top: 100px;
 }
 
  /* feature */
  
-
- .row-feat  {
-    width: 50%;
-    flex-basis: 50%;
-    text-align: center;
-    padding-right: 200px;
-    margin-top: 300px;
-}
-
-.content{
+ .content{
     display: flex;
-}
+    /* justify-content: space-around; */
+ }
 
-.row-feat h2{
-    font-weight: 600;
-    font-size: 3.4rem;
+ .row img{
+    width: 90%;
+    margin-left: 150px;
+ }
 
-}
+ .row-feat{
+    margin-top: 100px;
+    margin-left: 100px;
+ }
 
- .row-feat p {
-    padding: auto;
-    margin: auto;
-    font-size: 2rem;
-}
+ .row-feat h2{
+    margin-bottom: 100px;
+    font-size: 3rem;
+ }
 
-.row-feat {
-    width:  45%;
-}
+ .row-feat p{
+    font-size: 1.4rem;
+ }
 
-.row-feat img {
-    max-width: 100%;
-    margin-left: 500px;
-    object-fit: contain;
-    /* margin-bottom: 400px; */
 
-}
+ .animation {
+    position:absolute;
+    /* align-items: center; */
+    left: 830px;
+    top: 115%;
+    width: 420px;
+    z-index: 0.9;
+    object-fit: cover;
+
+ }
+
 
 /* content1 */
 
@@ -197,6 +204,14 @@ hr{
     font-size: 1.2rem;
  }
 
+
+ .showcase-animation {
+    width: 395px;
+    height: 225px;
+    top: 50px;
+    left: 500px;
+  }
+
 /* CONTENT2 */
 
  .content2{
@@ -222,6 +237,7 @@ hr{
     font-size: 3.1rem;
     padding: auto;
     text-align: center;
+    margin-top: 100px;
 }
 
 .row-feat3 p{
@@ -386,6 +402,13 @@ input[type="radio"] {
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+@media screen and (width:277px) {
+    .logo nav img{
+        width: 10%;
+        background-color: violet;
+     }
 }
 
 
