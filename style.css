@@ -132,17 +132,53 @@ hr{
     opacity: 0.1;
     max-width: 100%;
     margin-top: 100px;
+    /* padding-bottom: 10px; */
 }
 
+.curbe{
+    background: radial-gradient(50% 500% at 50% -420%, rgba(239, 6, 91, 0.986) 80%, rgba(235, 7, 7, 0.986) 100%), rgb(64, 8, 233);
+}
+
+.curve-bg {
+    margin-left: 250px;
+    width: 70%;
+    height: 400px;
+    margin-top: 50px;
+    background: linear-gradient( #ab09a5 0%, #cf0d0d 50%, transparent 50%, transparent 100%);
+    border: 100% 100%/0 0 100% 100% 100%;
+    border-radius: 15px;
+    padding-top: 50px;
+  }
+
+  .curve-bg
+   p ,h2{
+    margin-bottom: 20px;
+  }
+
+  .curve{
+    margin-left: 100px;
+  }
+
+  
+  .savoir
+  a{
+    margin-left: 30px;
+    background-color: #a97777 ;
+    border-radius: 10% ;
+    width: 10%;
+    text-align: center;
+    font-family: serif;
+    padding: 10px;
+ 
+  }
  /* feature */
  
  .content{
     display: flex;
-    /* justify-content: space-around; */
  }
 
  .row img{
-    width: 90%;
+    width: 70%;
     margin-left: 150px;
  }
 
@@ -185,7 +221,7 @@ hr{
 }
 
   .row2 img{
-    width: 85%;
+    width: 60%;
     /* object-fit: contain; */
     margin-right: 600px;
  }
@@ -194,14 +230,15 @@ hr{
     flex-basis: 55%;
     text-align: center;
     margin-top: 100px;
+    margin-right: 200px;
  }
 
  .row-feat2 h2{
-    font-size: 3rem;
+    font-size: 2rem;
  }
 
  .row-feat2 p{
-    font-size: 1.2rem;
+    font-size: 1rem;
  }
 
 
@@ -224,7 +261,7 @@ hr{
  }
 
  .row3 img{
-    width: 100%;
+    width: 90%;
     margin-left: 90px;
 }
 
@@ -234,14 +271,14 @@ hr{
 }
 
 .row-feat3 h2{
-    font-size: 3.1rem;
+    font-size: 2rem;
     padding: auto;
     text-align: center;
     margin-top: 100px;
 }
 
 .row-feat3 p{
-    font-size: 1.6rem;
+    font-size: 1rem;
     margin-top: 100px;
 }
 
@@ -410,6 +447,3 @@ input[type="radio"] {
         background-color: violet;
      }
 }
-
-
-
