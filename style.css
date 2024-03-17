@@ -131,8 +131,7 @@ hr{
     background-color: #fff;
     opacity: 0.1;
     max-width: 100%;
-    /* margin-top: 100px; */
-    /* padding-bottom: 10px; */
+   
 }
 
 
@@ -173,7 +172,7 @@ hr{
  .content{
     display: flex;
     position: relative;
-    bottom: 30vh;
+    bottom: 29vh;
  }
 
  .row img{
@@ -548,6 +547,7 @@ input[type="radio"] {
 .row2{
     margin-left: 200px;
 }
+
 
 .row-feat2 h2 {
     text-align: center;
