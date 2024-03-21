@@ -321,7 +321,7 @@ hr{
 /* foire questions */
 
 .faq {
-    padding: 10px 12%;
+    padding: 10px;
     text-align: center;
     font-size: 18px;
 }
@@ -353,7 +353,7 @@ hr{
     background-color: #303030;
     margin-bottom: 2px;
     cursor: pointer;
-    margin: 0 80px;
+    margin: 0 50px;
     position: relative;
 }
 
