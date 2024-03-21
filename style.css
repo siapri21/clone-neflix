@@ -516,6 +516,17 @@ input[type="radio"] {
     }
 
 
+    .accordion{
+        width: 360px;
+        /* padding:  5px auto; */
+    }
+
+    .accordion label{
+        width: 260px;
+        padding: 10px;
+    }
+
+
 }
 
 @media screen and (max-width : 776px) {
@@ -586,4 +597,15 @@ input[type="radio"] {
 .row-feat4 p{
     font-size: 1rem;
 }
+
+.accordion{
+    width: 360px;
+    /* padding:  5px auto; */
+}
+
+.accordion label{
+    width: 260px;
+    padding: 10px;
+}
+
 }
