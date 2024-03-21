@@ -99,12 +99,15 @@ a{
 /*input*/
 
 .email {
+    justify-content: center;
     background: #fff;
     border-radius: 5px;
     display: flex;
     align-items: center;
     margin-top: 10px;
     overflow: hidden;
+    width: 58%;
+    margin-left: 100px;
     
 }
 
@@ -113,6 +116,7 @@ a{
     border: 0;
     outline: 0;
     margin-left: 10px;
+    justify-content: center;
 }
 
 .email  button {
@@ -122,7 +126,7 @@ a{
     color:#fff;
     font-size: 16px;
     padding: 20px;
-    height:80%;
+    height:50%;
 }
 
 hr{
@@ -483,7 +487,9 @@ input[type="radio"] {
     
     .email{
         justify-content: center;
+        /* align-items: center; */
         width: 70%;
+        margin-right: 70px;
     }
 
     .email input {
@@ -492,7 +498,7 @@ input[type="radio"] {
     }
 
     .email button{
-        width:  250px;
+        width:  130px;
 
     }
 
@@ -529,7 +535,7 @@ input[type="radio"] {
 
 }
 
-@media screen and (max-width : 776px) {
+@media screen and (max-width : 550px) {
    .content{
     flex-direction: column;
     align-items: center;
